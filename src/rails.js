@@ -40,7 +40,7 @@
 		} else {
 			method = element.data('method');
 			url = element.attr('href');
-			data = null;
+			data = '';
 		}
 			$.ajax({
 				url: url, type: method || 'GET', data: data, dataType: dataType,
